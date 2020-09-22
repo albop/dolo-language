@@ -1,0 +1,36 @@
+{
+	"name": "Dolo",
+	"patterns": [
+		{
+			"include": "#variables"
+		},
+		{
+			"include": "#keywords"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [
+				{
+				"name": "entity.name.tag.yaml",
+				"match": "(.*):"
+				},
+				{
+				"name": "storage.type.tag-handle.yaml",
+				"match": "\\!\\w*"
+				}
+				
+			]
+		},
+		"variables": {
+			"patterns": [
+				{
+				"name": "variable.language",
+				"match": "\\w*\\[(t\\+\\d|t\\-\\d|t)\\]"
+				}
+			]
+
+		}
+	},
+	"scopeName": "source.dolo"
+}

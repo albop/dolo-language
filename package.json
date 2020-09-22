@@ -1,0 +1,25 @@
+{
+    "name": "dolo-language",
+    "displayName": "Dolo Language",
+    "description": "Syntax Highlighting for Dolo Models",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.49.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "dolo",
+            "aliases": ["Dolo", "dolo"],
+            "extensions": [".yml",".yaml",".dml"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "dolo",
+            "scopeName": "source.dolo",
+            "path": "./syntaxes/dolo.tmLanguage.json"
+        }]
+    }
+}
