@@ -1,5 +1,7 @@
 {
     "name": "dolo-language",
+    "publisher": "albop",
+    "repository": "https://github.com/albop/dolo-language.git",
     "displayName": "Dolo Language",
     "description": "Syntax Highlighting for Dolo Models",
     "version": "0.0.1",
