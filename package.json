@@ -1,27 +1,43 @@
 {
-    "name": "dolo-language",
-    "publisher": "albop",
-    "repository": "https://github.com/albop/dolo-language.git",
-    "displayName": "Dolo Language",
-    "description": "Syntax Highlighting for Dolo Models",
-    "version": "0.0.1",
-    "engines": {
-        "vscode": "^1.49.0"
-    },
-    "categories": [
-        "Programming Languages"
-    ],
-    "contributes": {
-        "languages": [{
-            "id": "dolo",
-            "aliases": ["Dolo", "dolo"],
-            "extensions": [".yml",".yaml",".dml"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "dolo",
-            "scopeName": "source.dolo",
-            "path": "./syntaxes/dolo.tmLanguage.json"
-        }]
-    }
+	"name": "dolo-language",
+	"publisher": "albop",
+	"repository": "https://github.com/albop/dolo-language.git",
+	"displayName": "Dolo Language",
+	"description": "Syntax Highlighting for Dolo Models",
+	"version": "0.0.2",
+	"engines": {
+		"vscode": "^1.49.0"
+	},
+	"categories": [
+		"Programming Languages"
+	],
+	"contributes": {
+		"languages": [
+			{
+				"id": "dolo",
+				"aliases": [
+					"Dolo",
+					"dolo"
+				],
+				"extensions": [
+					".yml",
+					".yaml",
+					".dml"
+				],
+				"configuration": "./language-configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "dolo",
+				"scopeName": "source.dolo",
+				"path": "./syntaxes/dolo.tmLanguage.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "08c5a7ad-f326-496d-8e99-b63a85fffe2a",
+		"publisherDisplayName": "Pablo Winant",
+		"publisherId": "41810c87-4539-4738-81c2-ed6ffb61ec27"
+	}
 }
